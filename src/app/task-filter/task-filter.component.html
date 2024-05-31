@@ -1,0 +1,5 @@
+<div>
+    <button (click)="setFilter('all')" [class.active]="filter === 'all'">Todas</button>
+    <button (click)="setFilter('completed')" [class.active]="filter === 'completed'">Completadas</button>
+    <button (click)="setFilter('notCompleted')" [class.active]="filter === 'notCompleted'">No Completadas</button>
+</div>
